@@ -1,0 +1,14 @@
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\bin\Debug\SorryGame.exe.config
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\bin\Debug\SorryGame.exe
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\bin\Debug\SorryGame.pdb
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\SorryGame.csprojAssemblyReference.cache
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\MainWindow.g.cs
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\App.g.cs
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\SorryGame_MarkupCompile.cache
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\SorryGame_MarkupCompile.lref
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\MainWindow.baml
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\SorryGame.g.resources
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\SorryGame.Properties.Resources.resources
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\SorryGame.csproj.GenerateResource.cache
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\SorryGame.exe
+C:\Users\Utilisateur\Documents\CompSci\Fall2019\CSharp\Sorry\sorrygame\SorryGame\SorryGame\obj\Debug\SorryGame.pdb
