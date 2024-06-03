@@ -8,12 +8,13 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>SorryGame</RootNamespace>
     <AssemblyName>SorryGame</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -37,6 +38,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,6 +58,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Card.cs" />
+    <Compile Include="GameState.cs" />
+    <Compile Include="Pawn.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="SetUpMenu.xaml.cs">
+      <DependentUpon>SetUpMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window1.xaml.cs">
+      <DependentUpon>StartMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="YouWin.xaml.cs">
+      <DependentUpon>YouWin.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +83,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="SetUpMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StartMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="YouWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -96,6 +124,84 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="sorry_board.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sorrylogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="card12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cardsorry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bluefire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="blueice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="greenfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="greenice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="redfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="redice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="yellowfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="yellowice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sorrycardback.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

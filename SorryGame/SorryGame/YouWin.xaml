@@ -1,0 +1,24 @@
+﻿<Window x:Class="SorryGame.YouWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SorryGame"
+        mc:Ignorable="d"
+        Title="YouWin" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Winnerlbl" Content="Winner" HorizontalAlignment="Left" VerticalAlignment="Top" Width="792" Height="305" FontWeight="Bold" FontSize="36" ScrollViewer.VerticalScrollBarVisibility="Disabled" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  >
+            <Label.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF51FF00" Offset="0.333"/>
+                    <GradientStop Color="#FFFD0E03" Offset="1"/>
+                    <GradientStop Color="#FFC4EE06" Offset="0.667"/>
+                    <GradientStop Color="#FF002EFF"/>
+                </LinearGradientBrush>
+            </Label.Background>
+        </Label>
+        <Button x:Name="Restartbtn" Content="Restart" HorizontalAlignment="Left" Margin="0,305,0,0" VerticalAlignment="Top" Width="390" Height="114" Background="Black" Foreground="White" Click="Restartbtn_Click"/>
+        <Button x:Name="Closebtn" Content="Close" HorizontalAlignment="Left" Margin="404,305,0,0" VerticalAlignment="Top" Width="388" Height="114" Background="Black" Foreground="White" Click="Closebtn_Click"/>
+
+    </Grid>
+</Window>
